@@ -29,5 +29,7 @@ public class PerimetroCirculo {
         System.out.println("The Circle perimeter is: " + format.format(circlePerimeter));
         System.out.println("The Circle area is: " + format.format(circleArea));
         scanner.close();
+        
+        
     }
 }
