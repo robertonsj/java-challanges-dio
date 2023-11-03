@@ -5,31 +5,29 @@
  */
 package exercicios.ruhanconceicao;
 
-import java.text.DecimalFormat;
-import java.util.Scanner;
+
 
 /**
  *
  * @author logistica
+ * The class aims to calculate the circle circumference and area.
  */
-public class PerimetroCirculo {
+public final class PerimetroCirculo {
     
-    public static void main(String args[]){
-        
-        Scanner scanner = new Scanner(System.in);
-        DecimalFormat format = new DecimalFormat(".####");
-        double  radius, circlePerimeter, circleArea;
-
-        System.out.print("Enter the radius of the circle (cm): ");
-        radius = scanner.nextDouble();
-        
-        circlePerimeter = 2 * Math.PI * radius;
-        circleArea = Math.PI * Math.pow(radius, 2);
-
-        System.out.println("The Circle perimeter is: " + format.format(circlePerimeter));
-        System.out.println("The Circle area is: " + format.format(circleArea));
-        scanner.close();
-        
-        
+    protected double  radius, circlePerimeter, circleArea;
+    
+    PerimetroCirculo(double radius) {
+        this.radius = radius;
+        this.circlePerimeter = calculateCirclePerimeter(radius);
+        this.circleArea = calculateCircleArea(radius);
     }
+    
+    public double calculateCirclePerimeter(double radius){
+        return 2 * Math.PI * radius;
+    }
+    
+    public double calculateCircleArea(double radius){
+        return Math.PI * Math.pow(radius, 2);
+    }
+              
 }
