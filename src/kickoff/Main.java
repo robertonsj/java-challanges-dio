@@ -15,13 +15,20 @@ public class Main {
 		AlunoVaiNaWeb alunoVnw = new AlunoVaiNaWeb("Roberto",
 				"SI2019", "Sistemas de Informação");
 		
-		alunoVnw.setDisciplinas(in);
+		try {
+			
+			alunoVnw.setDisciplinas(in);
+			
+			alunoVnw.setNotas(sc);
+			
+			alunoVnw.exibirInfoDeAluno();
+			
+			alunoVnw.getSituacao("redes");
+			
+		}catch (IOException ex) {
+			System.out.println(ex);
+		}
 		
-		alunoVnw.setNotas(sc);
-		
-		alunoVnw.getDisciplinas();
-		
-		alunoVnw.verificarAprovacao("banco");
 	}
 
 }

@@ -54,7 +54,7 @@ private static boolean tocando() {
 	return ! atendeu;
 }
 
-2 - Escreva uma classe para representar um Aluno. Adicione atributos relacionados às características de um Aluno, como nome,matricula, curso matriculado, nome de 3 disciplinas que está cursando e as notas dessas disciplinas. Desenvolva um método para verificar se o aluno está aprovado(nota maior ou igual a 7) em uma disciplina. Escreva um programa para testar essa classe, que pede as informações do aluno ao usuário e ao final informa o nome das disciplinas, as notas e se o aluno foi aprovado.
+
 
 //Inserir disciplinas
 Inicio
@@ -84,3 +84,7 @@ POLIMORFISMO
 HERANÇA
 	É a qualidade que permite que um objeto adquira as propriedades de outro objeto. Dá suporte ao conceito de classificação hierárquica. 
 
+
+Apresentando-se e descrevendo seus objetivos de carreira
+
+Aprenda como cumprimentar se apresentar e descrever seus objetivos de carreira em inglês. Aprenda também como utilizar o verbo Be.
