@@ -57,10 +57,7 @@ public class AlunoVaiNaWeb {
 		}
 		System.out.println("\n\t\tDisciplinas foram inseridas.\n");
 	}
-
-	public double[] getNotas() {
-		return notas;
-	}
+		
 
 	public void setNotas(Scanner sc) throws IOException {
 
