@@ -17,6 +17,7 @@ public class Main {
          AlunoVaiNaWeb alunoVnw = new AlunoVaiNaWeb("Roberto",
          "SI2019", "Sistemas de Informação");
 		
+
          alunoVnw.setDisciplinas(in);
 		
          alunoVnw.setNotas(sc);
@@ -25,6 +26,7 @@ public class Main {
 		
          alunoVnw.verificarAprovacao("banco");
          */
+        
         try {
             String formatado = FormatarCep.formatar("222333");
             System.out.println(formatado);
